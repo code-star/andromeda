@@ -3,7 +3,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "https://github.com/RotterdamLogisticsLab/pronto-phoenix/tree/master/packages/phoenix-buttons/explorer"
+    "url": "https://github.com/code-star/andromeda/tree/master/packages/andromeda-buttons/explorer"
   },
   "name": "andromeda-buttons-explorer",
   "version": "0.0.0",
