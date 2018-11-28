@@ -4,8 +4,6 @@
   "license": "UNLICENSED",
   "scripts": {
     "build": "lerna run build --stream",
-    "remove-packages": "lerna run remove-packages --stream",
-    "install-packages": "lerna run install-packages --stream",
     "start-storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook -c .storybook -o .storybook-static",
     "deploy-storybook": "gh-pages -d .storybook-static",
