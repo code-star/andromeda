@@ -25,6 +25,7 @@
     <img src="https://img.shields.io/badge/ui_development-storybook-f1618c.svg?style=flat-square" alt="Storybook">
     <img src="https://img.shields.io/badge/cloud_hosting-github_pages-0a4d69.svg?style=flat-square" alt="GitHub Pages">
     <img src="https://img.shields.io/badge/continuous_integration-circleci-03aa51.svg?style=flat-shield" alt="CircleCI">
+    <img src="https://img.shields.io/badge/continuous_integration-travisci-03aa51.svg?style=flat-shield" alt="TravisCI">
 </p>
 
 <p align="center">
@@ -60,6 +61,8 @@
 * **📜 Cloud Hosting**: [GitHub Pages](https://pages.github.com/) [🐝](https://andromeda.codestar.nl/)
 
 * **📜 Continuous Integration**: [CircleCI](https://circleci.com/) [🐝](https://circleci.com/gh/code-star/andromeda/) [![CircleCI](https://circleci.com/gh/code-star/andromeda.svg?style=svg)](https://circleci.com/gh/code-star/andromeda)
+
+* **📜 Continuous Integration**: [TravisCI](https://travis-ci.org/) [🐝](https://travis-ci.org/code-star/andromeda/) [![TravisCI](https://travis-ci.org/code-star/andromeda.svg?style=svg)](https://travis-ci.org/code-star/andromeda)
 
 * **📜 JavaScript Testing**: [Jest](https://jestjs.io/)
 
@@ -198,6 +201,17 @@
 * CI/CD jobs can be found [here](https://circleci.com/gh/code-star/andromeda)
 
 * Information on CircleCI can be found [here](https://circleci.com/)
+</details>
+
+### ⚙️ TravisCI
+<details>
+<summary>View Content</summary>
+
+* Andromeda uses TravisCI for Continuous Integration and Delivery.
+
+* CI/CD jobs can be found [here](https://travis-ci.org/code-star/andromeda)
+
+* Information on TravisCI can be found [here](https://travis-ci.org/)
 </details>
 
 ### ⚙️ Jest
