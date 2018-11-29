@@ -17,7 +17,7 @@
     "lint:scss": "stylelint lib/*.scss --fix",
     "lint:ts": "tslint tsconfig.json",
     "lint-fix": "tslint --fix",
-    "ci": "npm-run-all lint build"
+    "ci": "npm-run-all lint test build"
   },
   "dependencies": {
     "@material-ui/core": "^3.6.0",
