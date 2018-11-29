@@ -1,27 +1,48 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { ContainedDefaultButton, ContainedPrimaryButton, ContainedSecondaryButton } from '../../build/andromeda-buttons';
-// import { ContainedDefaultButton } from 'andromeda-buttons';
+import { MaterialButton } from '../../build/andromeda-buttons';
+// import { MaterialButton } from 'andromeda-buttons';
 
 import 'primer-utilities/index.scss'
 
+function handleOnClick() {
+  console.log('~handling onClick~')
+}
+
 ReactDOM.render(
   <div>
-    <h1 className="pl-1">🎨 Andromeda Buttons</h1>
+    <h1 className="pl-1">🎨 Andromeda MaterialButtons</h1>
 
-    <h2 className="pl-2">🗿 Contained Default Button</h2>
+    <h2 className="pl-2">🗿 Contained Default MaterialButton</h2>
     <div className="pl-6">
-      <ContainedDefaultButton />
+      <MaterialButton
+        variant="contained"
+        onClick={handleOnClick}
+      >
+        Default
+      </MaterialButton>
     </div>
 
-    <h2 className="pl-2">🗿 Contained Primary Button</h2>
+    <h2 className="pl-2">🗿 Contained Primary MaterialButton</h2>
     <div className="pl-6">
-      <ContainedPrimaryButton />
+      <MaterialButton
+        variant="contained"
+        color="primary"
+        onClick={handleOnClick}
+      >
+        Primary
+      </MaterialButton>
     </div>
 
-    <h2 className="pl-2">🗿 Contained Secondary Button</h2>
+    <h2 className="pl-2">🗿 Contained Secondary MaterialButton</h2>
     <div className="pl-6">
-      <ContainedSecondaryButton />
+      <MaterialButton
+        variant="contained"
+        color="secondary"
+        onClick={handleOnClick}
+      >
+        Secondary
+      </MaterialButton>
     </div>
   </div>,
   document.getElementById('app'),

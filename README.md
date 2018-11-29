@@ -59,7 +59,7 @@
 
 * **📜 Cloud Hosting**: [GitHub Pages](https://pages.github.com/) [🐝](https://code-star.github.io/andromeda/)
 
-* **📜 Continuous Integration**: [CircleCI](https://circleci.com/) [🐝](https://circleci.com/gh/code-star/andromeda/) [![CircleCI](https://circleci.com/gh/code-star/andromeda.svg?style=svg&circle-token=ee18288ca898696ea67350f1514104f45ea5cbce)](https://circleci.com/gh/code-star/andromeda)
+* **📜 Continuous Integration**: [CircleCI](https://circleci.com/) [🐝](https://circleci.com/gh/code-star/andromeda/) [![CircleCI](https://circleci.com/gh/code-star/andromeda.svg?style=svg)](https://circleci.com/gh/code-star/andromeda)
 
 * **📜 JavaScript Testing**: [Jest](https://jestjs.io/)
 
