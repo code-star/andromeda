@@ -1,18 +1,29 @@
 {
-  "license": "MIT",
-  "private": true,
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/code-star/andromeda/tree/master/packages/andromeda-buttons/explorer"
-  },
   "name": "andromeda-buttons-explorer",
-  "version": "0.0.0",
+  "license": "MIT",
+  "version": "0.0.2",
   "main": "index.js",
+  "repository": "https://github.com/code-star/andromeda/tree/master/packages/andromeda-buttons/explorer",
+  "keywords": [
+    "buttons",
+    "andromeda",
+    "material-ui",
+    "primer-utilities",
+    "css",
+    "react",
+    "github",
+    "design-system",
+    "component-library",
+    "andromeda-buttons",
+    "webpack",
+    "babel"
+  ],
   "scripts": {
     "start": "webpack-dev-server --config ./webpack.config.js --mode development",
     "test": "echo \"No test specified\" && exit 0"
   },
   "dependencies": {
+    "andromeda-buttons": "0.0.2",
     "primer-utilities": "^4.14.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
