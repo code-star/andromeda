@@ -75,9 +75,10 @@
 <details>
 <summary>View Content</summary>
 
-* 🎨 ActionButton
-
-* 🎨 UpdateButton
+* 🎨 MaterialButtons
+  * 🎨 Contained Default MaterialButton
+  * 🎨 Contained Primary MaterialButton
+  * 🎨 Contained Secondary MaterialButton
 
 </details>
 
