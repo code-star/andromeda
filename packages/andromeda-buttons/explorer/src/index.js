@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { MaterialButton } from '../../build/andromeda-buttons';
-// import { MaterialButton } from 'andromeda-buttons';
+// import { MaterialButton } from '../../build/andromeda-buttons';
+import { MaterialButton } from 'andromeda-buttons';
 
 import 'primer-utilities/index.scss'
 
