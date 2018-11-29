@@ -6,7 +6,7 @@
     "build",
     "README.md"
   ],
-  "license": "UNLICENSED",
+  "license": "MIT",
   "scripts": {
     "build": "webpack --env production",
     "remove-packages": "rm -rf node_modules package-lock.json",
