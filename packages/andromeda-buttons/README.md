@@ -1,6 +1,7 @@
 # Andromeda Buttons
 
 [![CircleCI](https://circleci.com/gh/code-star/andromeda.svg?style=svg)](https://circleci.com/gh/code-star/andromeda)
+[![TravisCI](https://travis-ci.org/code-star/andromeda.svg?style=svg)](https://travis-ci.org/code-star/andromeda)
 [![version](https://img.shields.io/npm/v/andromeda-buttons.svg?style=flat-square)](http://npm.im/andromeda-buttons)
 [![downloads](https://img.shields.io/npm/dm/andromeda-buttons.svg?style=flat-square)](http://npm-stat.com/charts.html?package=andromeda-buttons&from=2018-10-13)
 [![MIT License](https://img.shields.io/npm/l/andromeda-buttons.svg?style=flat-square)](http://opensource.org/licenses/MIT)

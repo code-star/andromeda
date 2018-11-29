@@ -1,12 +1,23 @@
 {
   "name": "andromeda-buttons",
+  "license": "MIT",
   "version": "0.0.2",
   "main": "build/andromeda-buttons.js",
+  "repository": "https://github.com/code-star/andromeda/tree/master/packages/andromeda-buttons",
   "files": [
     "build",
     "README.md"
   ],
-  "license": "MIT",
+  "keywords": [
+    "buttons",
+    "andromeda",
+    "material-ui",
+    "css",
+    "react",
+    "github",
+    "design-system",
+    "component-library"
+  ],
   "scripts": {
     "build": "webpack --env production",
     "remove-packages": "rm -rf node_modules package-lock.json",
