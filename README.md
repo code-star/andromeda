@@ -57,7 +57,7 @@
 
 * **📜 UI Development Environment**: [Storybook](https://storybook.js.org/)
 
-* **📜 Cloud Hosting**: [GitHub Pages](https://pages.github.com/) [🐝](https://code-star.github.io/andromeda/)
+* **📜 Cloud Hosting**: [GitHub Pages](https://pages.github.com/) [🐝](https://andromeda.codestar.nl/)
 
 * **📜 Continuous Integration**: [CircleCI](https://circleci.com/) [🐝](https://circleci.com/gh/code-star/andromeda/) [![CircleCI](https://circleci.com/gh/code-star/andromeda.svg?style=svg)](https://circleci.com/gh/code-star/andromeda)
 
@@ -75,9 +75,10 @@
 <details>
 <summary>View Content</summary>
 
-* 🎨 ActionButton
-
-* 🎨 UpdateButton
+* 🎨 MaterialButtons
+  * 🎨 Contained Default MaterialButton
+  * 🎨 Contained Primary MaterialButton
+  * 🎨 Contained Secondary MaterialButton
 
 </details>
 
@@ -180,7 +181,7 @@
 
 * Andromeda development is deployed to two environments of which GitHub Pages is one.
 
-* GitHub Pages environment can be found [here](https://code-star.github.io/andromeda/)
+* GitHub Pages environment can be found [here](https://andromeda.codestar.nl/)
 
 * Deployments can be found [here](https://github.com/code-star/andromeda/deployments)
 
