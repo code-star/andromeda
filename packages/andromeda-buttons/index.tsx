@@ -1,11 +1,7 @@
 import {
-  ContainedDefaultButton,
-  ContainedPrimaryButton,
-  ContainedSecondaryButton
+  MaterialButton
 } from './lib'
 
 export {
-  ContainedDefaultButton,
-  ContainedPrimaryButton,
-  ContainedSecondaryButton
+  MaterialButton
 }

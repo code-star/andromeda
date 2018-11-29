@@ -1,9 +1,5 @@
-import { ContainedDefaultButton } from './ContainedDefaultButton'
-import { ContainedPrimaryButton } from './ContainedPrimaryButton'
-import { ContainedSecondaryButton } from './ContainedSecondaryButton'
+import { MaterialButton } from './MaterialButton'
 
 export {
-  ContainedDefaultButton,
-  ContainedPrimaryButton,
-  ContainedSecondaryButton
+  MaterialButton
 }
