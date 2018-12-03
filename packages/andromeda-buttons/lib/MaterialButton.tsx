@@ -9,9 +9,13 @@ export interface IButton {
   onClick: () => void
 }
 
-export const MaterialButton = (props: IButton) => {
-  const { variant, color, className, children, onClick } = props
-
+export const MaterialButton = ({
+  variant,
+  color = 'inherit',
+  className = '',
+  children,
+  onClick
+}: IButton) => {
   return (
     <Button
       variant={variant}
