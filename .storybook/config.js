@@ -1,24 +1,25 @@
 import { addDecorator, setAddon, configure } from '@storybook/react';
 import JSXAddon from 'storybook-addon-jsx';
+import { withInfo } from '@storybook/addon-info'
+import { withNotes } from '@storybook/addon-notes'
 import { withOptions } from '@storybook/addon-options';
 import { version } from '../lerna.json';
 import './index.css'
 
-import { withKnobs } from '@storybook/addon-knobs/react';
-
-addDecorator(withKnobs);
+addDecorator(withInfo);
+addDecorator(withNotes);
 addDecorator(
   withOptions({
     name: `Andromeda v${version}`,
     url: 'https://github.com/code-star/andromeda',
     showAddonPanel: true,
-    addonPanelInRight: false
+    addonPanelInRight: true
   })
 )
 
 setAddon(JSXAddon);
 
-const req = require.context('../packages', true, /.story.tsx$/);
+const req = require.context('../packages', true, /.story.js$/);
 
 function loadStories() {
   require('./welcomeStory');
