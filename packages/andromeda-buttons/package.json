@@ -1,7 +1,8 @@
 {
   "name": "andromeda-buttons",
   "license": "MIT",
-  "version": "0.0.2",
+  "version": "0.0.3",
+  "description": "Andromeda Buttons React UI Components",
   "main": "build/andromeda-buttons.js",
   "repository": "https://github.com/code-star/andromeda/tree/master/packages/andromeda-buttons",
   "files": [
