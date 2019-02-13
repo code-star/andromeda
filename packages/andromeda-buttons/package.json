@@ -24,7 +24,7 @@
     "remove-packages": "rm -rf node_modules package-lock.json",
     "install-packages": "npm install",
     "release": "npm publish",
-    "test": "jest --config jest.config.json --no-cache --silent --runInBand",
+    "test": "jest --config jest.config.json -u --no-cache --silent --runInBand",
     "lint": "run-p lint:scss lint:ts",
     "lint:scss": "stylelint lib/*.scss --fix",
     "lint:ts": "tslint tsconfig.json",
