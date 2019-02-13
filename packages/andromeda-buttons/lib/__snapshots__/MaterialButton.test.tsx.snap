@@ -6,6 +6,7 @@ exports[`<MaterialButton /> Snaphot must match containedDefaultMaterialButton 1`
   disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
+  onContextMenu={[Function]}
   onFocus={[Function]}
   onKeyDown={[Function]}
   onKeyUp={[Function]}
@@ -35,6 +36,7 @@ exports[`<MaterialButton /> Snaphot must match containedPrimaryMaterialButton 1`
   disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
+  onContextMenu={[Function]}
   onFocus={[Function]}
   onKeyDown={[Function]}
   onKeyUp={[Function]}
@@ -64,6 +66,7 @@ exports[`<MaterialButton /> Snaphot must match containedSecondaryMaterialButton 
   disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
+  onContextMenu={[Function]}
   onFocus={[Function]}
   onKeyDown={[Function]}
   onKeyUp={[Function]}
